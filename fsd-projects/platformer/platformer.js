@@ -44,14 +44,16 @@ $(function () {
     createPlatform(250, 150, 1050, 10);
     createPlatform(1300, 150, 10, 225)
     createBadPlatform(260, 465, 990, 10, "red")
-    // TODO 3 - Create Collectables
-
+   // TODO 3 - Add collectables
+     createCollectable ("database", 300 , 300);
+     createCollectable ("database", 600, 500);
 
 
     
     // TODO 4 - Create Cannons
-
-
+    createCannon ("top", 240, 1000);
+    createCannon ("top", 500, 1000 );
+    createCannon ("top", 600, 1000);
     
     
     //////////////////////////////////
